@@ -1,4 +1,4 @@
-# lambda-log-bifurcator-cdk
+# Bifurcating Lambda Logs
 
 This is a companion repo for this [blog](https://speedrun.nobackspacecrew.com/blog/2023/02/23/bifurcating-lambda-logs.html) on bifurcating lambda logs.
 
