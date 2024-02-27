@@ -2,6 +2,11 @@
 
 This is a companion repo for this [blog](https://speedrun.nobackspacecrew.com/blog/2023/02/23/bifurcating-lambda-logs.html) on bifurcating lambda logs.
 
+## Key files
+[The Service Application](src/handler.ts)
+[The Request Log Writing Lambda](src/main.rs)
+[The CDK stack with Subscription Filter and Function Url](lib/logfilter-stack.ts)
+
 ## Installation
 
 1. Install [Cargo Lambda](https://www.cargo-lambda.info/guide/getting-started.html)
