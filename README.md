@@ -10,8 +10,8 @@ This is a companion repo for this [blog](https://speedrun.nobackspacecrew.com/bl
 
 ## Deployment
 
-1. npx cdk synth
-2. npx cdk deploy
+1. `npx cdk synth`
+2. `npx cdk deploy`
 
 ## Running
 Hit the url that appears in the output of the deploy command above to trigger a request.  To see the logs, there are two log groups, the original logs are in:
