@@ -1,6 +1,6 @@
 # lambda-log-bifurcator-cdk
 
-This is a companion repo for this blog: 
+This is a companion repo for this [blog](https://speedrun.nobackspacecrew.com/blog/2023/02/23/bifurcating-lambda-logs.html) on bifurcating lambda logs.
 
 ## Installation
 
@@ -9,8 +9,18 @@ This is a companion repo for this blog:
 3. `npm run build`
 
 ## Deployment
+
 1. npx cdk synth
 2. npx cdk deploy
+
+## Running
+Hit the url that appears in the output of the deploy command above to trigger a request.  To see the logs, there are two log groups, the original logs are in:
+
+`/aws/lambda/serverlessAirline`
+
+and the filtered request logs are in:
+
+`/aws/lambda/serverlessAirline-requestlogs`
 
 ## Useful commands
 * `npm run build`   compile typescript to js
