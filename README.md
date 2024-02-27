@@ -16,11 +16,15 @@ This is a companion repo for this [blog](https://speedrun.nobackspacecrew.com/bl
 ## Running
 Hit the url that appears in the output of the deploy command above to trigger a request.  To see the logs, there are two log groups, the original logs are in:
 
-`/aws/lambda/serverlessAirline`
+`/aws/lambda/airline-service`
 
 and the filtered request logs are in:
 
-`/aws/lambda/serverlessAirline-requestlogs`
+`/aws/lambda/airline-service-requestlogs`
+
+## Cleanup
+When you are done, you can delete the resources by running
+1. `npx cdk destroy`
 
 ## Useful commands
 * `npm run build`   compile typescript to js
