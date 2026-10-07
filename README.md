@@ -3,9 +3,10 @@
 This is a companion repo for this [blog](https://speedrun.nobackspacecrew.com/blog/2024/02/23/bifurcating-lambda-logs.html) on bifurcating lambda logs.
 
 ## Key files
-[The Service Application](src/handler.ts)
-[The Request Log Writing Lambda](src/main.rs)
-[The CDK stack with Subscription Filter and Function Url](lib/logfilter-stack.ts)
+
+1. [The Service Application](src/handler.ts)
+2. [The Request Log Writing Lambda](src/main.rs)
+3. [The CDK stack with Subscription Filter and Function Url](lib/logfilter-stack.ts)
 
 ## Installation
 
